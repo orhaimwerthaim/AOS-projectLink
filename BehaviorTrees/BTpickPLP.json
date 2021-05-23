@@ -1,0 +1,777 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "cca14be7-f86d-40b8-8632-36a3049fa06b",
+  "title": "Pick",
+  "description": "",
+  "root": "0872d196-98bb-4c04-9de7-d4819fc239b4",
+  "properties": {},
+  "nodes": {
+    "0872d196-98bb-4c04-9de7-d4819fc239b4": {
+      "id": "0872d196-98bb-4c04-9de7-d4819fc239b4",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -288,
+        "y": -432
+      },
+      "children": [
+        "0cfc7784-b24e-4895-820a-79ec58acf34e",
+        "440d7e5f-1a10-4fe9-a068-e4ba75ea5db2",
+        "5a067b68-60dc-4e44-87ab-84c92a3dfad4",
+        "4f6fb889-74f9-4040-84b4-151387e6986d"
+      ]
+    },
+    "7de74eae-b1d3-4694-b003-56f128a705f2": {
+      "id": "7de74eae-b1d3-4694-b003-56f128a705f2",
+      "name": "Input variable",
+      "title": "object_to_place obj",
+      "description": "",
+      "properties": {
+        "VariableName": "obj",
+        "VariableType": "object_to_place"
+      },
+      "display": {
+        "x": 336,
+        "y": -624
+      }
+    },
+    "0cfc7784-b24e-4895-820a-79ec58acf34e": {
+      "id": "0cfc7784-b24e-4895-820a-79ec58acf34e",
+      "name": "Input Variables",
+      "title": "Stage:Input Variables",
+      "description": "Input Variables",
+      "properties": {},
+      "display": {
+        "x": -84,
+        "y": -576
+      },
+      "children": [
+        "02dfb3c8-da6e-478f-81ad-732683086a1d"
+      ]
+    },
+    "440d7e5f-1a10-4fe9-a068-e4ba75ea5db2": {
+      "id": "440d7e5f-1a10-4fe9-a068-e4ba75ea5db2",
+      "name": "Preconditions",
+      "title": "Stage:Preconditions",
+      "description": "Preconditions",
+      "properties": {},
+      "display": {
+        "x": -84,
+        "y": -396
+      },
+      "children": [
+        "d902fafa-9ed3-43db-b164-e73d3e80b2ea"
+      ]
+    },
+    "492b81ea-292a-450e-81e4-93efb64e0b08": {
+      "id": "492b81ea-292a-450e-81e4-93efb64e0b08",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 132,
+        "y": -396
+      },
+      "children": [
+        "d272dc3f-e127-47f6-8b55-19d3fdf56fbf",
+        "228f1a70-2b63-46d9-996b-22d578a5c817"
+      ]
+    },
+    "228f1a70-2b63-46d9-996b-22d578a5c817": {
+      "id": "228f1a70-2b63-46d9-996b-22d578a5c817",
+      "name": "Is True()",
+      "title": "Is True(hand_empty)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 312,
+        "y": -372
+      }
+    },
+    "d272dc3f-e127-47f6-8b55-19d3fdf56fbf": {
+      "id": "d272dc3f-e127-47f6-8b55-19d3fdf56fbf",
+      "name": "Is Initialized()",
+      "title": "Is Initialized(obj.observed_location)",
+      "description": "initialized",
+      "properties": {},
+      "display": {
+        "x": 336,
+        "y": -444
+      }
+    },
+    "5a067b68-60dc-4e44-87ab-84c92a3dfad4": {
+      "id": "5a067b68-60dc-4e44-87ab-84c92a3dfad4",
+      "name": "Effects Model",
+      "title": "Stage:Effects & and module response Model",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -96,
+        "y": -264
+      },
+      "children": [
+        "686aa9e2-1f27-4f27-b3a1-ed4623aa20cb"
+      ]
+    },
+    "6d2f786a-3a4b-47f7-9e9a-48b21cbe4a48": {
+      "id": "6d2f786a-3a4b-47f7-9e9a-48b21cbe4a48",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 564,
+        "y": -528
+      },
+      "children": [
+        "e4b81b78-5be5-407b-82ae-99c4ff11b10c",
+        "0eb6ee43-5efd-4b0c-8f67-aea3e87dc43a",
+        "ff71e1a3-416b-4418-9968-d723954a7215",
+        "22a39cf8-2fa3-4681-882f-37586a17f3d8",
+        "62546ad2-1202-48a7-93d0-d1759b416fc9"
+      ]
+    },
+    "0eb6ee43-5efd-4b0c-8f67-aea3e87dc43a": {
+      "id": "0eb6ee43-5efd-4b0c-8f67-aea3e87dc43a",
+      "name": "SetTemporaryVariable()",
+      "title": "SetTemporaryVariable(resultVar,@success)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 852,
+        "y": -564
+      }
+    },
+    "e6c1cd40-918c-43c5-9ba7-74509a3b26f9": {
+      "id": "e6c1cd40-918c-43c5-9ba7-74509a3b26f9",
+      "name": "Input variable",
+      "title": "bool hand_empty",
+      "description": "",
+      "properties": {
+        "VariableName": "obj",
+        "VariableType": "object_to_place"
+      },
+      "display": {
+        "x": 336,
+        "y": -528
+      }
+    },
+    "ff71e1a3-416b-4418-9968-d723954a7215": {
+      "id": "ff71e1a3-416b-4418-9968-d723954a7215",
+      "name": "Set",
+      "title": "SetGlobalVariable(hand_empty,false)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 840,
+        "y": -516
+      }
+    },
+    "22a39cf8-2fa3-4681-882f-37586a17f3d8": {
+      "id": "22a39cf8-2fa3-4681-882f-37586a17f3d8",
+      "name": "Set",
+      "title": "SetGlobalVariable(obj.observed_location,null)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 876,
+        "y": -468
+      }
+    },
+    "40c97ccc-e986-4214-a9e1-6c92738e24c6": {
+      "id": "40c97ccc-e986-4214-a9e1-6c92738e24c6",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 360,
+        "y": -216
+      },
+      "children": [
+        "6d2f786a-3a4b-47f7-9e9a-48b21cbe4a48",
+        "c7101ea4-2144-48c9-892d-3d52322e45f6",
+        "f72a7cb5-5019-40be-92d4-e0120cd1461f"
+      ]
+    },
+    "c7101ea4-2144-48c9-892d-3d52322e45f6": {
+      "id": "c7101ea4-2144-48c9-892d-3d52322e45f6",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 564,
+        "y": -264
+      },
+      "children": [
+        "20be74ed-fb6b-42cc-8d8e-f656fb96b0a8",
+        "1bfdd1c0-1a3c-4581-ba33-9aa3dbebd37a",
+        "e23f1ed8-236d-463f-8b8c-a2ce46b1c202",
+        "d06f68a7-e2bc-427c-8869-39d08aea5ea4"
+      ]
+    },
+    "1bfdd1c0-1a3c-4581-ba33-9aa3dbebd37a": {
+      "id": "1bfdd1c0-1a3c-4581-ba33-9aa3dbebd37a",
+      "name": "SetTemporaryVariable()",
+      "title": "SetTemporaryVariable(resultVar,@objectWasBroken)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 852,
+        "y": -264
+      }
+    },
+    "e23f1ed8-236d-463f-8b8c-a2ce46b1c202": {
+      "id": "e23f1ed8-236d-463f-8b8c-a2ce46b1c202",
+      "name": "Set",
+      "title": "SetGlobalVariable(obj.broken,true)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 792,
+        "y": -204
+      }
+    },
+    "62546ad2-1202-48a7-93d0-d1759b416fc9": {
+      "id": "62546ad2-1202-48a7-93d0-d1759b416fc9",
+      "name": "SetReward()",
+      "title": "SetReward(70)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 780,
+        "y": -420
+      }
+    },
+    "d06f68a7-e2bc-427c-8869-39d08aea5ea4": {
+      "id": "d06f68a7-e2bc-427c-8869-39d08aea5ea4",
+      "name": "SetReward()",
+      "title": "SetReward(-40)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 732,
+        "y": -156
+      }
+    },
+    "9b8e6478-3e08-474f-b092-42361b875f39": {
+      "id": "9b8e6478-3e08-474f-b092-42361b875f39",
+      "name": "SetTemporaryVariable()",
+      "title": "SetTemporaryVariable(resultVar,@notHolding)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 804,
+        "y": -84
+      }
+    },
+    "b2540a77-c287-4064-9679-e53df3b2fdd0": {
+      "id": "b2540a77-c287-4064-9679-e53df3b2fdd0",
+      "name": "SetReward()",
+      "title": "SetReward(-10)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 732,
+        "y": -24
+      }
+    },
+    "f72a7cb5-5019-40be-92d4-e0120cd1461f": {
+      "id": "f72a7cb5-5019-40be-92d4-e0120cd1461f",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 564,
+        "y": -48
+      },
+      "children": [
+        "9b8e6478-3e08-474f-b092-42361b875f39",
+        "b2540a77-c287-4064-9679-e53df3b2fdd0"
+      ]
+    },
+    "4f6fb889-74f9-4040-84b4-151387e6986d": {
+      "id": "4f6fb889-74f9-4040-84b4-151387e6986d",
+      "name": "Stage:LowLevelModuleResult",
+      "title": "Stage:LowLevelModuleResultByLocalVariables",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -84,
+        "y": 48
+      },
+      "children": [
+        "f455f1a4-c269-4a55-9cdb-7f0cc91d0309"
+      ]
+    },
+    "a84044d9-870a-4a8b-9622-c2f9d0cb572b": {
+      "id": "a84044d9-870a-4a8b-9622-c2f9d0cb572b",
+      "name": "ReturnResult()",
+      "title": "ReturnResult(resultVar)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": -84
+      }
+    },
+    "02dfb3c8-da6e-478f-81ad-732683086a1d": {
+      "id": "02dfb3c8-da6e-478f-81ad-732683086a1d",
+      "name": "Parallel =>",
+      "title": "Parallel =>",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 132,
+        "y": -576
+      },
+      "children": [
+        "7de74eae-b1d3-4694-b003-56f128a705f2",
+        "e6c1cd40-918c-43c5-9ba7-74509a3b26f9"
+      ]
+    },
+    "686aa9e2-1f27-4f27-b3a1-ed4623aa20cb": {
+      "id": "686aa9e2-1f27-4f27-b3a1-ed4623aa20cb",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 120,
+        "y": -264
+      },
+      "children": [
+        "40c97ccc-e986-4214-a9e1-6c92738e24c6",
+        "a84044d9-870a-4a8b-9622-c2f9d0cb572b"
+      ]
+    },
+    "b3b0837c-2c0c-49c5-8e4f-f0c21361bddc": {
+      "id": "b3b0837c-2c0c-49c5-8e4f-f0c21361bddc",
+      "name": "Parallel =>",
+      "title": "Parallel =>",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": 360
+      },
+      "children": [
+        "9e39c34d-a4db-4921-8612-a287daac7413",
+        "e7bfaf68-bb62-4c02-96bc-a5b98a385008",
+        "d51b06b3-5cc9-4d19-ae67-80f4954a89c2",
+        "84c0f708-e024-4c70-873a-cc697db8f988"
+      ]
+    },
+    "e4b81b78-5be5-407b-82ae-99c4ff11b10c": {
+      "id": "e4b81b78-5be5-407b-82ae-99c4ff11b10c",
+      "name": "bernoulli()",
+      "title": "bernoulli(0.9)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 780,
+        "y": -612
+      }
+    },
+    "20be74ed-fb6b-42cc-8d8e-f656fb96b0a8": {
+      "id": "20be74ed-fb6b-42cc-8d8e-f656fb96b0a8",
+      "name": "bernoulli()",
+      "title": "bernoulli(0.3)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 780,
+        "y": -348
+      }
+    },
+    "9e39c34d-a4db-4921-8612-a287daac7413": {
+      "id": "9e39c34d-a4db-4921-8612-a287daac7413",
+      "name": "SetLocalVariableFromGlueFile()",
+      "title": "SetLocalVariableFromGlueFile(obj.observed_location,object_location)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 744,
+        "y": 516
+      }
+    },
+    "d51b06b3-5cc9-4d19-ae67-80f4954a89c2": {
+      "id": "d51b06b3-5cc9-4d19-ae67-80f4954a89c2",
+      "name": "SetLocalVariableFromGlueFile()",
+      "title": "SetLocalVariableFromGlueFile(gripper_pressure)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": 696
+      }
+    },
+    "84c0f708-e024-4c70-873a-cc697db8f988": {
+      "id": "84c0f708-e024-4c70-873a-cc697db8f988",
+      "name": "SetLocalVariableFromGlueFile()",
+      "title": "SetLocalVariableFromGlueFile(gripper_opening)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": 780
+      }
+    },
+    "f455f1a4-c269-4a55-9cdb-7f0cc91d0309": {
+      "id": "f455f1a4-c269-4a55-9cdb-7f0cc91d0309",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 204,
+        "y": 132
+      },
+      "children": [
+        "64522f60-55ab-47b6-9fca-246338050570",
+        "b3b0837c-2c0c-49c5-8e4f-f0c21361bddc"
+      ]
+    },
+    "64522f60-55ab-47b6-9fca-246338050570": {
+      "id": "64522f60-55ab-47b6-9fca-246338050570",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 312,
+        "y": 228
+      },
+      "children": [
+        "6ac80c7b-9fef-49f2-8557-c5d41c0142a2",
+        "23d987c8-f5e7-4346-a535-f474c52196a9",
+        "2a0f6350-0983-4bf2-8223-5bba93de8cad"
+      ]
+    },
+    "fe9390db-157e-43fb-8328-f636c0ff800d": {
+      "id": "fe9390db-157e-43fb-8328-f636c0ff800d",
+      "name": "bernoulli()",
+      "title": "condition('gripper_feel_pressure',gripper_pressure, '>', 0)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 708,
+        "y": 48
+      }
+    },
+    "6ac80c7b-9fef-49f2-8557-c5d41c0142a2": {
+      "id": "6ac80c7b-9fef-49f2-8557-c5d41c0142a2",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 348,
+        "y": 48
+      },
+      "children": [
+        "fe9390db-157e-43fb-8328-f636c0ff800d",
+        "e624ee33-b69b-4dfb-91f9-f24cd98fd83d",
+        "313e6441-5f46-4a57-b2ea-6e8294689e6d"
+      ]
+    },
+    "e624ee33-b69b-4dfb-91f9-f24cd98fd83d": {
+      "id": "e624ee33-b69b-4dfb-91f9-f24cd98fd83d",
+      "name": "bernoulli()",
+      "title": "condition('gripper_not_closed',gripper_opening, '>', 0)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": 108
+      }
+    },
+    "313e6441-5f46-4a57-b2ea-6e8294689e6d": {
+      "id": "313e6441-5f46-4a57-b2ea-6e8294689e6d",
+      "name": "ReturnLowLevelResult()",
+      "title": "ReturnLowLevelResult(@success)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 672,
+        "y": 180
+      }
+    },
+    "e7bfaf68-bb62-4c02-96bc-a5b98a385008": {
+      "id": "e7bfaf68-bb62-4c02-96bc-a5b98a385008",
+      "name": "SetLocalVariableFromGlueFile()",
+      "title": "SetLocalVariableFromGlueFile(top_gripper_pressure)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 696,
+        "y": 600
+      }
+    },
+    "4f62ab27-6e58-4150-9cb6-648a3f611699": {
+      "id": "4f62ab27-6e58-4150-9cb6-648a3f611699",
+      "name": "bernoulli()",
+      "title": "condition('object was broken',top_gripper_pressure, '>', 2000)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 792,
+        "y": 252
+      }
+    },
+    "5a8cd575-1e12-4b30-8500-9578c0f537cd": {
+      "id": "5a8cd575-1e12-4b30-8500-9578c0f537cd",
+      "name": "ReturnLowLevelResult()",
+      "title": "ReturnLowLevelResult(@objectWasBroken)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 732,
+        "y": 336
+      }
+    },
+    "1f9e756b-65d3-4808-83d2-be7c366aeee6": {
+      "id": "1f9e756b-65d3-4808-83d2-be7c366aeee6",
+      "name": "ReturnLowLevelResult()",
+      "title": "ReturnLowLevelResult(@notHolding)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 732,
+        "y": 432
+      }
+    },
+    "23d987c8-f5e7-4346-a535-f474c52196a9": {
+      "id": "23d987c8-f5e7-4346-a535-f474c52196a9",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 480,
+        "y": 312
+      },
+      "children": [
+        "4f62ab27-6e58-4150-9cb6-648a3f611699",
+        "5a8cd575-1e12-4b30-8500-9578c0f537cd"
+      ]
+    },
+    "2a0f6350-0983-4bf2-8223-5bba93de8cad": {
+      "id": "2a0f6350-0983-4bf2-8223-5bba93de8cad",
+      "name": "Sequence",
+      "title": "Sequence",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 516,
+        "y": 432
+      },
+      "children": [
+        "1f9e756b-65d3-4808-83d2-be7c366aeee6"
+      ]
+    },
+    "d902fafa-9ed3-43db-b164-e73d3e80b2ea": {
+      "id": "d902fafa-9ed3-43db-b164-e73d3e80b2ea",
+      "name": "Priority",
+      "title": "Priority",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 48,
+        "y": -372
+      },
+      "children": [
+        "492b81ea-292a-450e-81e4-93efb64e0b08",
+        "6ac2ff79-d4cf-4d73-a0fc-bf55f5acbd94"
+      ]
+    },
+    "6ac2ff79-d4cf-4d73-a0fc-bf55f5acbd94": {
+      "id": "6ac2ff79-d4cf-4d73-a0fc-bf55f5acbd94",
+      "name": "SetReward()",
+      "title": "SetReward(-800)",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 324,
+        "y": -312
+      }
+    }
+  },
+  "display": {
+    "camera_x": 807.5,
+    "camera_y": 461,
+    "camera_z": 0.5,
+    "x": -492,
+    "y": -432
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Set",
+      "category": "action",
+      "title": "Set Global Variable",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Input variable",
+      "category": "action",
+      "title": "Input variable",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Input Variables",
+      "category": "composite",
+      "title": "Input Variables",
+      "description": "Input Variables",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Preconditions",
+      "category": "composite",
+      "title": "Preconditions",
+      "description": "Preconditions",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Is Initialized()",
+      "category": "condition",
+      "title": "Is Initialized()",
+      "description": "initialized",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Is True()",
+      "category": "condition",
+      "title": "Is True()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Effects Model",
+      "category": "composite",
+      "title": "Effects Model",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "=bernoulli()",
+      "category": "action",
+      "title": "=bernoulli()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetTemporaryVariable()",
+      "category": "action",
+      "title": "SetTemporaryVariable()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "RunAllSequentially",
+      "category": "composite",
+      "title": "RunAllSequentially",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetReward()",
+      "category": "action",
+      "title": "SetReward()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Stage:LowLevelModuleResult",
+      "category": "composite",
+      "title": "Stage:LowLevelModuleResult",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "Parallel =>",
+      "category": "composite",
+      "title": "Parallel =>",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ReturnResult()",
+      "category": "action",
+      "title": "ReturnResult()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "bernoulli()",
+      "category": "condition",
+      "title": "bernoulli()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetLocalVariableFromGlueFile()",
+      "category": "action",
+      "title": "SetLocalVariableFromGlueFile()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SetLocalVariableFromGlobalVariable()",
+      "category": "action",
+      "title": "SetLocalVariableFromGlobalVariable()",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ReturnLowLevelResult()",
+      "category": "action",
+      "title": "ReturnLowLevelResult()",
+      "description": null,
+      "properties": {}
+    }
+  ]
+}
