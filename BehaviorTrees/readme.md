@@ -21,4 +21,6 @@ in robotics, as is evident from the research being done."
 - https://www.behaviortrees.com/ is a website, which is based on an altered version of Behavior3editor and can be used to create/edit/export/import behavior trees.
 - VS Code has a plugin to create BT in a simple way and to graphically present it, but it does have a JSON export/import which is a drawback.  
 ## Examples
-[BTpickPLP](https://github.com/orhaimwerthaim/AOS-projectLink/blob/main/BehaviorTrees/BTpickPLP.jpg)is a BehaviorTree that describes a pick module and contains all of the PLP data.
+[BTpickPLP](https://github.com/orhaimwerthaim/AOS-projectLink/blob/main/BehaviorTrees/BTpickPLP.jpg) is a BehaviorTree that describes a pick module and contains all of the PLP data.
+[BTpickPLP.json](https://github.com/orhaimwerthaim/AOS-projectLink/blob/main/BehaviorTrees/BTpickPLP.json) is the tree exported JSON.
+The example was created using https://www.behaviortrees.com/
